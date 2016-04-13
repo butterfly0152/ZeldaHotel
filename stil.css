@@ -1,0 +1,124 @@
+
+body{
+background-image:url("./img/hotel1.jpg");
+ }
+ 
+.header{
+	text-align:center;
+}
+.navbar{
+	background-color:rgba(0, 0, 0, 0.8);
+	text-align:center;
+	border-color:rgba(0,0,0,0.8);
+}
+
+.navbar .navbar-nav{
+	display:inline-block;
+	float:none;
+}
+.navbar-nav li a{
+	color:rgb(0, 102, 128);
+	font-family:monospace;
+	font-size:200%;
+	font-weight:900;
+	text-align:center;
+}
+.navbar- nav{
+	color:rgb(0, 102, 128);	
+} 
+
+.dropdown-menu{
+	background-color:rgba(0, 0, 0, 0.8);
+	
+}
+.dropdown-menu >a{
+	color:rgb(0, 102, 128);
+}
+	
+#continut img{
+	border:3px solid #ccc;
+	max-width:100%;
+	height:auto;
+}
+
+#continut p{
+	background-color:rgba(0, 0, 0, 0.8 );
+	color:rgb(0, 102, 128);
+	font-family:monospace;
+	font-size:150%;
+	font-weight:800;
+	text-indent:5%;
+}
+p span{
+	display:inline-block; /* pt ca text-indent sa mearga, tb ca elementul sa nu aiba display: block*/
+	text-indent:5%;
+}
+#tabel{
+	 background-color:rgba(0, 0, 0, 0.8 );
+	 color: rgb(0, 102, 128);
+	 font-size:100%;
+	 font-weight:700;
+	 }
+#tabel2{
+	 background-color:rgba(0, 0, 0, 0.8 );
+	 color: rgb(0, 102, 128);
+	 font-size:100%;
+	 font-weight:700;
+	 text-align: center;
+	 margin-top:15px;
+	}
+#tabel2 tr td{
+	 border: 1px solid black;
+	 padding:10px;
+		 
+	} 
+.buton{
+	background-color:rgb(71, 209, 71);
+	margin:5px;
+	}
+
+	
+	
+	
+/* Footer css*/
+	
+html {
+	position: relative;
+	min-height: 100%;
+	
+}
+body {
+  /* Margin bottom by footer height */
+   margin-bottom:4vw; 
+   
+   } 
+.container p{
+	color:rgb(0, 102, 128);
+}
+
+.startbtn{
+	text-align: center;
+	}
+	
+/* Pg Galerie */
+
+.galerie img{
+	border:3px solid #ccc;
+	max-width:100%;
+	height:auto;
+}
+#galerie1{
+	width:30%;
+	height:30%;
+	position:absolute;
+	z-index:2;
+	visibility: hidden;
+	top:420px;
+	left:820px;
+}
+/* Pg Gadgets */
+.thumbnail{
+	background-color:rgba(0, 0, 0, 0.8);
+	
+}
+
